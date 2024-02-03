@@ -40,12 +40,14 @@ Fork the repository, create a new branch, make your changes, and submit a pull r
    git checkout -b feature/your-feature-name
    
 3. **Make your changes and commit them:**
+4. 
    git commit -m "Add your commit message"
 
-4. **Push your changes to your fork:**
+5. **Push your changes to your fork:**
+6. 
    git push origin feature/your-feature-name
 
-5. **Open a pull request with a detailed description of your changes.**
+7. **Open a pull request with a detailed description of your changes.**
 
 ##Contact
 If you have any questions, suggestions, or just want to connect, feel free to reach out to me:
