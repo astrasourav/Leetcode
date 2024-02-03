@@ -30,8 +30,9 @@ To use the solutions or contribute to this repository, follow these steps:
  
    https://github.com/astrasourav/Leetcode.git
    
-##Contributing
-f you have a different or more optimized solution, feel free to contribute!
+## Contributing
+
+If you have a different or more optimized solution, feel free to contribute!
 Fork the repository, create a new branch, make your changes, and submit a pull request.
 
 1. **Fork the repository:**
@@ -49,7 +50,8 @@ Fork the repository, create a new branch, make your changes, and submit a pull r
 
 7. **Open a pull request with a detailed description of your changes.**
 
-##Contact
+## Contact
+
 If you have any questions, suggestions, or just want to connect, feel free to reach out to me:
 
    Linkedin :- https://www.linkedin.com/in/sourav-kumar-30141b174/
