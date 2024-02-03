@@ -38,13 +38,13 @@ Fork the repository, create a new branch, make your changes, and submit a pull r
 2. **Create a new branch for your changes:**
    
    git checkout -b feature/your-feature-name
-   
+
 3. **Make your changes and commit them:**
-4. 
+ 
    git commit -m "Add your commit message"
 
 5. **Push your changes to your fork:**
-6. 
+ 
    git push origin feature/your-feature-name
 
 7. **Open a pull request with a detailed description of your changes.**
