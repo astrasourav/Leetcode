@@ -1,7 +1,7 @@
 class Solution {
 public:
     int romanToInt(string s) {
-        unordered_map<int, int> m;
+        unordered_map<char, int> m;
         int ans = 0;
 
         m['I'] = 1;
@@ -11,8 +11,9 @@ public:
         m['C'] = 100;
         m['D'] = 500;
         m['M'] = 1000;
+        
 
-        for (int i=0; i<s.length(); i++) {
+        for (int i=0; i<s.length(); i++) {//sometimes when i use s.size() then test cases are not passed i dont know why, so check both length() and size() yourself. 
             if (m[s[i]] >= m[s[i+1]]) {
                 ans+= m[s[i]];
             } else {
