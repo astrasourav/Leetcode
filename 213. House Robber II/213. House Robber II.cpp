@@ -14,11 +14,15 @@ public:
     }
 
     int rob(vector<int>& nums) {
-        if (nums.empty()) {
-            return nums[0];
+        int n = nums.size();
+
+        if (n==0) {
+            return 0;
         }
 
-        int n = nums.size();
+        if (n == 1) {
+            return nums[0];
+        }
 
         return max(getMax(nums, 0, n - 2), getMax(nums, 1, n - 1));
     }
