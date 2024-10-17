@@ -1,0 +1,3 @@
+Given a weighted and directed graph of V vertices and edges, Find the shortest distance of all the vertex's from the source vertex, src and return a list of integers where the ith integer denotes the distance of the ith node from the source node. If a vertices can't be reach from the src then mark the distance as 108.
+
+Note: If the graph contains a negative cycle then return an array consisting of only -1.
